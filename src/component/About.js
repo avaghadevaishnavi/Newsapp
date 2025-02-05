@@ -43,37 +43,7 @@ export class About extends Component {
     </div>
   </div>
 </div>
-<form>
-    <div className=" mb-3 centre"  style={{marginTop:'90px'}}>
-    <label for="exampleInputEmail1" className="form-label">Did you find our News App helpfull?</label>
-    <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-  <label class="form-check-label" for="flexRadioDefault1">
-    Yes
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked/>
-  <label class="form-check-label" for="flexRadioDefault2">
-    No
-  </label>
-</div>
-    <div id="emailHelp" className="form-text">Your Option Matters</div>
-  </div>
-  <div className="mb-3">
-    <label for="exampleInputPassword1" className="form-label"> If No-How can we make your experience even better?</label>
-    <input type="text" className="form-control" id="exampleInputPassword1"style={{width:"500px"}}/>
-  </div>
-  <div className="mb-3">
-    <label for="exampleInputPassword1" className="form-label">If yes-What's one thing that  doing well with and should carry on doing? .</label>
-    <input type="text" className="form-control" id="exampleInputPassword1"style={{width:"500px"}}/>
-  </div>
-  <div className="mb-3 form-check">
-    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-    <label className="form-check-label" for="exampleCheck1">Love to use again</label>
-  </div>
-  <button type="submit" className="btn btn-primary">Submit</button>
-</form>
+
       </div>
     )
   }
