@@ -9,7 +9,7 @@ import Health from './component/Health';
 import Science from './component/Science';
 import Technology from './component/Technology';
 import About from './component/About';
-import Home from './component/Home';
+
 
 // rcc for creating class base component
 export default class App extends Component {
@@ -20,7 +20,7 @@ export default class App extends Component {
       <div>
         <BrowserRouter>
           <Navbar/>
-          <Routes><Route  exact path="/home"element={<Home/>}/></Routes>
+        
           <Routes><Route  exact path="/"element={<News/>}/></Routes>
           <Routes><Route  exact path="/About"element={<About/>}/></Routes>
            <Routes><Route  exact path="/business"element={<Business/>}/></Routes>
