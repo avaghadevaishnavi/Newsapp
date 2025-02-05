@@ -236,8 +236,8 @@ export class Technology extends Component {
              return <div className='col md-4 'key={element.url}>
           <NewsItems  tittle={element.title?element.title.slice(0,45):""} discription={element.description?element.description.slice(0,88):""}imageurl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name}/>
           <div className="input-group input-group-sm mb-3">
-  <span className="input-group-text" id="inputGroup-sizing-sm">Small</span>
-  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"/>
+ 
+ 
 </div>
             </div>
             
